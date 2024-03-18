@@ -12,12 +12,12 @@ interface IAGEN is IERC20, IERC165 {
      * The function to get the cap of the token.
      * @return The cap of the token.
      */
-    function cap() external view returns (uint256);
+    // function cap() external view returns (uint256);
 
     /**
      * The function to mint tokens.
-     * @param account_ The address of the account to mint tokens to.
-     * @param amount_ The amount of tokens to mint.
+     * @param to The address of the account to mint tokens to.
+     * @param amount The amount of tokens to mint.
      */
-    function mint(address account_, uint256 amount_) external;
+    function mint(address to, uint256 amount) external;
 }
