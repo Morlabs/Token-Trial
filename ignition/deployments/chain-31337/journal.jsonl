@@ -1,0 +1,4 @@
+
+{"chainId":31337,"type":"DEPLOYMENT_INITIALIZE"}
+{"artifactId":"AgenModule#AGEN","constructorArgs":[],"contractName":"AGEN","dependencies":[],"from":"0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266","futureId":"AgenModule#AGEN","futureType":"NAMED_ARTIFACT_CONTRACT_DEPLOYMENT","libraries":{},"strategy":"basic","strategyConfig":{},"type":"DEPLOYMENT_EXECUTION_STATE_INITIALIZE","value":{"_kind":"bigint","value":"1000000000"}}
+{"futureId":"AgenModule#AGEN","networkInteraction":{"data":"0x","id":1,"type":"ONCHAIN_INTERACTION","value":{"_kind":"bigint","value":"1000000000"}},"type":"NETWORK_INTERACTION_REQUEST"}
